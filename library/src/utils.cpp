@@ -7,7 +7,6 @@ void Wypelnij(ClientManagerPtr clientManager, VehicleManagerPtr vehicleManager, 
     AddressPtr adres1(new Address("Warszawa", "ulica", "2"));
     AddressPtr adres2(new Address("Wroclaw", "aleja", "3"));
 
-    clientManager->registerClient("Patryk", "Makowski", "2321455", adres1);
     clientManager->registerClient("Szymon", "Blazynski", "2134125", adres2);
 
     vehicleManager->registerCar("WWE2345", 500, 8000, Car::E);
